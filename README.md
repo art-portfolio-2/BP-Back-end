@@ -1,6 +1,8 @@
 # Back-End-Architect
 ## Brooks Poltl
 
+### Live Backend URL: https://backend-art.herokuapp.com/
+
 ### **Register a user**
 *method url*: `/api/register`
 
@@ -25,11 +27,11 @@
 #### Example
 ```
   {
-    username: 'brooks',
-    password: '1234',
-    fullName: 'Brooks Poltl',
-    email: 'bpoltl1@gmail.com',
-    userImgUrl: 'something.jpg'
+    "username": "brooks",
+    "password": "1234",
+    "fullName": 'Brooks Poltl',
+    "email": "bpoltl1@gmail.com",
+    "userImgUrl": "something.jpg"
   }
   ```
 #### Response
@@ -38,7 +40,7 @@
 ##### 400 (Bad Request)
 ```
   {
-    errorMessage: 'missing ${itemMissing}'
+    "errorMessage": "missing ${itemMissing}"
   }
   ```
 ### **Login a user**
@@ -63,8 +65,8 @@
 #### Example
 ```
   {
-    username: 'brooks',
-    password: '1234',
+    "username": "brooks",
+    password: "1234",
   }
   ```
 #### Response
