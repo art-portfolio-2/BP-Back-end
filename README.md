@@ -470,7 +470,7 @@
 ###### Example Response
 ```
   {
-    "message":"upvote registered"
+    "upvotes": 6
   }
 ```
 ### **Edit a Post**
